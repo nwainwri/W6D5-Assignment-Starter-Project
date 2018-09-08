@@ -10,6 +10,7 @@ import Foundation
 
 struct PerformanceDataModel {
   
+  //ORIGINAL ASSIGNMENT CODE
   //    static func doSomething() {
   //        // Random number between -0.500 to +0.500
   //        let randomNumber = (Double(arc4random_uniform(1000)) - 500.0) / 1000.0
@@ -23,7 +24,7 @@ struct PerformanceDataModel {
   //        usleep(sleepTimeInMilliseconds)
   //    }
   
-  
+  // ROLAND (INSTRUCTOR) CODE
   static func doSomething() {
     // Random number between -0.500 to +0.500
     let randomNumber = (Double(arc4random_uniform(1000)) - 500.0) / 1000.0
