@@ -39,6 +39,9 @@ extension DetailViewController {
         // Update the user interface for the detail item.
         if let detailItem = detailItem, let label = detailDescriptionLabel, let mealName = detailItem.name {
             label.text = "\(mealName) - \(detailItem.calories)"
+          
+          // MARK: BELOW line setups idendtifer label... as it now changes on load/compile.
+          label.accessibilityIdentifier = "detailViewControllerLabel"
         }
     }
 }
